@@ -55,7 +55,7 @@ function UserMenu() {
             <Typography textAlign="center">My Reservations</Typography>
           </Button>
         </MenuItem>
-        <MenuItem
+        <MenuItem 
         onClick={() => {
           sessionStorage.removeItem("userInfo");
           window.location.href =
